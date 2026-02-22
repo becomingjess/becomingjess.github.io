@@ -82,10 +82,16 @@ section {
 }
 
 .visual-identity img {
-    max-width: 100%;
+    max-width: 300px;
     height: auto;
     border: 1px solid #ddd;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.visual-identity img:hover {
+    opacity: 0.85;
 }
 
 .visual-identity figcaption {
