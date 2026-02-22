@@ -76,6 +76,25 @@ section {
     color: #444;
 }
 
+.visual-identity {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.visual-identity img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.visual-identity figcaption {
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+}
+
 /* Notes listing */
 .note {
     margin: 2rem 0;
